@@ -5,9 +5,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #324a70;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-wrapper{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-list span{
+  color: #fb533f;
+}
+
+.city-form-input{
+  padding: 5px;
+  font-size: 18px;
+  background: transparent;
+  color: white;
+
+  border: none;
+  border-bottom: 1px solid #fb533f;
+}
+
+.city-form-input:focus{
+  outline: none;
+}
+
+.city-form-input::placeholder{
+  color: white;
+}
+
+.city-form-btn{
+  padding: 6.25px 20px;
+  margin-left: 5px;
+  font-size: 15px;
+
+  border: none;
+  border-bottom: 1px solid #fb533f;
+  border-radius: 2px;
+
+  color: white;
+  background: #fb533f;
+  cursor: pointer;
+}
+
+.city-form-btn:hover{
+  opacity: 0.9;
+}
+
+.city-form-btn:focus{
+  outline: none;
+}
+
+.weather-item{
+  padding-top: 15px;
+}
+
+.weather-item span{
+  font-weight: bold;
 }
