@@ -7,4 +7,4 @@
 
 4. Error handling is also present.
 
-5. DEMO is hosted on github pages: https://mishabatsiashvili.github.io/ReactWeatherApp/batumi. (Unfortunately feature #3 doesn't work on github pages because of it's limitations, to view this feature you can run the project localy).
+5. DEMO is hosted on github pages: https://mishabatsiashvili.github.io/ReactWeatherApp/batumi. (Unfortunately feature #3 doesn't work on github pages because of it's limitations, to view this feature you can run the project locally).
