@@ -5,6 +5,6 @@
 3. Using react router user can put a name for a place as URI parameter and application reacts to it and outputs appropriate weather information.
 (E.g. website-url/Batumi would output weather information for Batumi).
 
-4. Error handling is also present.
+4. Error and no city record handling is also present.
 
 5. DEMO is hosted on github pages: https://mishabatsiashvili.github.io/ReactWeatherApp/. (Unfortunately feature #3 doesn't work on github pages because of it's limitations, to view this feature you can run the project locally).
